@@ -27,9 +27,22 @@ if (success == true)    // If you pick 1,2 or 3 (success will be true)
     Console.Clear();
     Console.WriteLine("Your Chosen Character Is Darth Vader!");
     Console.WriteLine("Here Are Your Stats: ");
-    Console.WriteLine("[]");
+    Console.WriteLine(" Name: " + Vader.name + " [HP] = " + Vader.HP + " [Weapon] = " + Vader.weapon);
 }
     if (character == 2)
+{
+    Console.Clear();
+    Console.WriteLine(" Your Chosen Character Is Luke Skywalker!");
+    Console.WriteLine(" Here Are Your Stats: ");
+    Console.WriteLine(" Name: " + Skywalker.name + " [HP] = " + Skywalker.HP + " [Weapon] = " + Skywalker.weapon);
+}
+    if (character == 3)
+{
+    Console.Clear();
+    Console.WriteLine(" Your Chosen Character Is Obi-Wan Kenobi!");
+    Console.WriteLine(" Here Are Your Stats: ");
+    Console.WriteLine(" Name: " + Obi.name + " [HP] = " + Obi.HP + " [Weapon] = " + Obi.weapon);
+}
 
     if (character > 3)
     {

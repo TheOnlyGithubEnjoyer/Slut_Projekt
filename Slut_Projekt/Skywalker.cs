@@ -1,11 +1,8 @@
 
 public class Skywalker
 {
-    string name {get; set;}
-
-    public float height {get; set; }
-
-    public float mass { get; set; }
-
-    public int HP = 150;
+    public static string name { get; set; }
+    public static float height { get; set; }
+    public static string weapon { get; set; }
+    public static int HP { get; set; } = 150;
 }
