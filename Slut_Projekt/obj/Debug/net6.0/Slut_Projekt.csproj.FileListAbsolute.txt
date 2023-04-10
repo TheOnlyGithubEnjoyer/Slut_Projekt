@@ -1,0 +1,15 @@
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\bin\Debug\net6.0\Slut_Projekt.exe
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\bin\Debug\net6.0\Slut_Projekt.deps.json
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\bin\Debug\net6.0\Slut_Projekt.runtimeconfig.json
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\bin\Debug\net6.0\Slut_Projekt.dll
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\bin\Debug\net6.0\Slut_Projekt.pdb
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\obj\Debug\net6.0\Slut_Projekt.csproj.AssemblyReference.cache
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\obj\Debug\net6.0\Slut_Projekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\obj\Debug\net6.0\Slut_Projekt.AssemblyInfoInputs.cache
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\obj\Debug\net6.0\Slut_Projekt.AssemblyInfo.cs
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\obj\Debug\net6.0\Slut_Projekt.csproj.CoreCompileInputs.cache
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\obj\Debug\net6.0\Slut_Projekt.dll
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\obj\Debug\net6.0\refint\Slut_Projekt.dll
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\obj\Debug\net6.0\Slut_Projekt.pdb
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\obj\Debug\net6.0\Slut_Projekt.genruntimeconfig.cache
+C:\Users\walker.elliot\Documents\Spel\Slut_Projekt\Slut_Projekt\obj\Debug\net6.0\ref\Slut_Projekt.dll

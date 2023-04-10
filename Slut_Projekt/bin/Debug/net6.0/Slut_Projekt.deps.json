@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Slut_Projekt/1.0.0": {
+        "runtime": {
+          "Slut_Projekt.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Slut_Projekt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
