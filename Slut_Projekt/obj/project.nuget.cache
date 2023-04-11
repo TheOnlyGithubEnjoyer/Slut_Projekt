@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "U9YoOMiFTsBRTkkBAzg4ecLYFU11R9Kv9MmWg/8n35vQcelxzGfEQ2KnZ/NrQyKB0NmmNAVV9gEK/jXQAfcGiA==",
+  "dgSpecHash": "c5VYmlSYf64gWwPMbd3WzA4W6rvTZ9ImMHe7/UYecL40aMFGmqOB+Gy4E5bmSxpHlB8mpMSOtPgcP0KUYhqzbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\walker.elliot\\Documents\\Spel\\Slut_Projekt\\Slut_Projekt\\Slut_Projekt.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Users\\walker.elliot\\Documents\\Spel\\Slut_Projekt\\Slut_Projekt\\Slut_Projekt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\walker.elliot\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\walker.elliot\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\walker.elliot\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\walker.elliot\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
