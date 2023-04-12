@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\walker.elliot\\Documents\\Spel\\Slut_Projekt\\Slut_Projekt\\Slut_Projekt.csproj": {}
+    "C:\\Users\\walker.elliot\\Documents\\Spel\\Slut_Projekt\\Slut_Projekt\\Slut_Projekt.csproj": {}
   },
   "projects": {
-    "c:\\Users\\walker.elliot\\Documents\\Spel\\Slut_Projekt\\Slut_Projekt\\Slut_Projekt.csproj": {
+    "C:\\Users\\walker.elliot\\Documents\\Spel\\Slut_Projekt\\Slut_Projekt\\Slut_Projekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\walker.elliot\\Documents\\Spel\\Slut_Projekt\\Slut_Projekt\\Slut_Projekt.csproj",
+        "projectUniqueName": "C:\\Users\\walker.elliot\\Documents\\Spel\\Slut_Projekt\\Slut_Projekt\\Slut_Projekt.csproj",
         "projectName": "Slut_Projekt",
-        "projectPath": "c:\\Users\\walker.elliot\\Documents\\Spel\\Slut_Projekt\\Slut_Projekt\\Slut_Projekt.csproj",
+        "projectPath": "C:\\Users\\walker.elliot\\Documents\\Spel\\Slut_Projekt\\Slut_Projekt\\Slut_Projekt.csproj",
         "packagesPath": "C:\\Users\\walker.elliot\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\walker.elliot\\Documents\\Spel\\Slut_Projekt\\Slut_Projekt\\obj\\",
+        "outputPath": "C:\\Users\\walker.elliot\\Documents\\Spel\\Slut_Projekt\\Slut_Projekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\walker.elliot\\AppData\\Roaming\\NuGet\\NuGet.Config"
