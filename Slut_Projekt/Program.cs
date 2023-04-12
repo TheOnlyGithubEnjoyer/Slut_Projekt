@@ -67,15 +67,16 @@ if (success == true)    // If you pick 1,2 or 3 (success will be true)
 
 }
 
+Console.ReadLine();
 
 Console.Clear();
 Console.WriteLine(" [Main Objective: Find the hidden shuttle back to earth.]");
 Console.WriteLine(" Location: In a hidden capsule with a Door (Right) and a Door (Infront)");
 
-string input2 = Console.ReadLine();
 
+string input2 = "";
 
-while (input2 != "Infront" + "Right")
+while (input2 != "Infront" && input2 != "Right")
 {
 
 Console.WriteLine(" Which door will you enter? Door (Right) or Door (Infront)");
@@ -84,22 +85,20 @@ input2 = Console.ReadLine();
 
 if (input2 == "Infront")
 {
-    
+        Console.Clear();
         Console.WriteLine(" [Main Objective: Find the hidden shuttle back to earth.]");
         Console.WriteLine(" Location: You're in a tube. You can see a creature at the end of it.");
         Console.WriteLine(" Will you try to (Attack) it or will you try to (Run) straight through it?");
+        
 }
 if (input2 == "Right")
 {
+        Console.Clear();
         Console.WriteLine(" [Main Objective: Find the hidden shuttle back to earth.]");
         Console.WriteLine(" Location: You are in a big room where you can see an (Entrance) towards the shuttle.");
         Console.WriteLine(" You can also see a Door (Left) which leads into something interesting.");
         Console.WriteLine(" What will you do? Go to the (Entrance) or will you investigate the Door to the (Left)?");
-
 }
 }
-
-
-
 
 Console.ReadLine();
