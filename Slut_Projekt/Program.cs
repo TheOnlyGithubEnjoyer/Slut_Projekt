@@ -8,9 +8,9 @@ global using System.Text.Json.Serialization;
 
 
 
-Console.WriteLine("WELCOME TO THE SPACE MAZE!");
+Console.WriteLine(" WELCOME TO THE SPACE MAZE!");
 
-Console.WriteLine("(Press Enter to Proceed)");
+Console.WriteLine(" (Press Enter to Proceed)");
 
 Console.ReadLine();
 Console.Clear();
@@ -22,9 +22,9 @@ bool success = false;
 while (success != true)
 {
 
-Console.WriteLine("Please Pick a Character:");
+Console.WriteLine(" Please Pick a Character:");
 
-Console.WriteLine("| Press (1) for Darth Vadar | " + "  | Press (2) for Luke Skywalker | " + "  | Press (3) for Obi-Wan Kenobi | ");
+Console.WriteLine(" | Press (1) for Darth Vadar | " + "  | Press (2) for Luke Skywalker | " + "  | Press (3) for Obi-Wan Kenobi | ");
 
 string input = Console.ReadLine();
 
@@ -35,8 +35,8 @@ if (success == true)    // If you pick 1,2 or 3 (success will be true)
     if (character == 1)                
 {
     Console.Clear();
-    Console.WriteLine("Your Chosen Character Is " + Vader.name + "!");
-    Console.WriteLine("Here Are Your Stats: ");
+    Console.WriteLine(" Your Chosen Character Is " + Vader.name + "!");
+    Console.WriteLine(" Here Are Your Stats: ");
     Console.WriteLine(" Name: " + Vader.name + "   [HP] = " + Vader.HP + "   [Weapon] = " + Vader.weapon);
 }
     if (character == 2)
@@ -50,9 +50,12 @@ if (success == true)    // If you pick 1,2 or 3 (success will be true)
 {
     
     Console.Clear();
-    Console.WriteLine(" Your Chosen Character Is " + Obi.name + "!");
-    Console.WriteLine(" Here Are Your Stats: ");
-    Console.WriteLine(" Name: " + Obi.name + "   [HP] = " + Obi.HP + "   [Weapon] = " + Obi.weapon);
+
+    static void Main(string[] args) {
+        string information = Obi.GetInformation();
+        Console.WriteLine(information);
+
+    }
 }
 
     if (character > 3)
