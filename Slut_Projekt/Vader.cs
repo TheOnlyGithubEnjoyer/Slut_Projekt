@@ -5,5 +5,10 @@ public class Vader
     public static int HP { get; set; } = 200;
     public static int damage = 100;
 
+    public static string GetInformationVader () {
+    return " Your Chosen Character Is " + Vader.name + "! \n Here Are Your Stats: \n Name: " + Vader.name + "  \n [HP] = " + Vader.HP + " \n [Weapon] = " + Vader.weapon;
+
+    }
+
 
 }

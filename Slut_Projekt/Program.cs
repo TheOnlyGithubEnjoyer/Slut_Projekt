@@ -5,9 +5,6 @@ global using System.Text.Json;
 global using System.Net;
 global using System.Text.Json.Serialization;
 
-
-
-
 Console.WriteLine(" WELCOME TO THE SPACE MAZE!");
 
 Console.WriteLine(" (Press Enter to Proceed)");
@@ -34,28 +31,23 @@ if (success == true)    // If you pick 1,2 or 3 (success will be true)
 {
     if (character == 1)                
 {
-    Console.Clear();
-    Console.WriteLine(" Your Chosen Character Is " + Vader.name + "!");
-    Console.WriteLine(" Here Are Your Stats: ");
-    Console.WriteLine(" Name: " + Vader.name + "   [HP] = " + Vader.HP + "   [Weapon] = " + Vader.weapon);
+        Console.Clear();
+        string information = Vader.GetInformationVader();
+        Console.WriteLine(information);
 }
     if (character == 2)
 {
-    Console.Clear();
-    Console.WriteLine(" Your Chosen Character Is " + Skywalker.name + "!");
-    Console.WriteLine(" Here Are Your Stats: ");
-    Console.WriteLine(" Name: " + Skywalker.name + "   [HP] = " + Skywalker.HP + "   [Weapon] = " + Skywalker.weapon);
+        Console.Clear();
+        string information = Skywalker.GetInformationSkywalker();
+        Console.WriteLine(information);
 }
     if (character == 3)
 {
     
-    Console.Clear();
-
-    static void Main(string[] args) {
-        string information = Obi.GetInformation();
+        Console.Clear();
+        string information = Obi.GetInformationObi();
         Console.WriteLine(information);
 
-    }
 }
 
     if (character > 3)
@@ -73,8 +65,12 @@ if (success == true)    // If you pick 1,2 or 3 (success will be true)
 Console.ReadLine();
 
 Console.Clear();
-Console.WriteLine(" [Main Objective: Find the hidden shuttle back to earth.]");
-Console.WriteLine(" Location: In a hidden capsule with a Door (Right) and a Door (Infront)");
+string infromationstage = Stage.GetInformationStage();
+Console.WriteLine(infromationstage);
+
+
+// Console.WriteLine(" [Main Objective: Find the hidden shuttle back to earth.]");
+// Console.WriteLine(" Location: In a hidden capsule with a Door (Right) and a Door (Infront)");
 
 
 string input2 = "";
