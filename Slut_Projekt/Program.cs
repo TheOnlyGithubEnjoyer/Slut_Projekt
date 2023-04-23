@@ -29,25 +29,23 @@ success = int.TryParse(input, out character); // Tryparse for choosing character
 
 if (success == true)    // If you pick 1,2 or 3 (success will be true)
 {
-    if (character == 1)                
+    if (character == 1)                // If the success is true then it will write information depending on which character you chose.
 {
         Console.Clear();
         string information = Vader.GetInformationVader();
-        Console.WriteLine(information);
+        Console.WriteLine(information);                     // Writes out the information in the string from Vader.
 }
     if (character == 2)
 {
         Console.Clear();
         string information = Skywalker.GetInformationSkywalker();
-        Console.WriteLine(information);
+        Console.WriteLine(information);                     // Writes out the information in the string from Skywalker.
 }
     if (character == 3)
 {
-    
         Console.Clear();
         string information = Obi.GetInformationObi();
-        Console.WriteLine(information);
-
+        Console.WriteLine(information);                     // Writes out the information in the string from Obi-Wan Kenobi.
 }
 
     if (character > 3)
@@ -64,39 +62,31 @@ if (success == true)    // If you pick 1,2 or 3 (success will be true)
 
 Console.ReadLine();
 
+
 Console.Clear();
 string infromationstage = Stage.GetInformationStage();
-Console.WriteLine(infromationstage);
-
-
-// Console.WriteLine(" [Main Objective: Find the hidden shuttle back to earth.]");
-// Console.WriteLine(" Location: In a hidden capsule with a Door (Right) and a Door (Infront)");
-
+Console.WriteLine(infromationstage);                    // Information about the stage which is written after the character stats are displayed.
 
 string input2 = "";
 
-while (input2 != "Infront" && input2 != "Right")
+while (input2 != "Infront" && input2 != "Right")            // Here you will need to write and input and depending on what you chose there will be a different outcome of storyline.
 {
 
-Console.WriteLine(" Which door will you enter? Door (Right) or Door (Infront)");
+Console.WriteLine(" Which door will you enter? Door (Right) or Door (Infront)");        // This is the question that pops up every time you don't write an answer.
 input2 = Console.ReadLine();
 
 
 if (input2 == "Infront")
 {
         Console.Clear();
-        Console.WriteLine(" [Main Objective: Find the hidden shuttle back to earth.]");
-        Console.WriteLine(" Location: You're in a tube. You can see a creature at the end of it.");
-        Console.WriteLine(" Will you try to (Attack) it or will you try to (Run) straight through it?");
+        string infromationstage2 = Stage.GetInformationStage2();
+        Console.WriteLine(infromationstage2);
         
 }
 if (input2 == "Right")
 {
         Console.Clear();
-        Console.WriteLine(" [Main Objective: Find the hidden shuttle back to earth.]");
-        Console.WriteLine(" Location: You are in a big room where you can see an (Entrance) towards the shuttle.");
-        Console.WriteLine(" You can also see a Door (Left) which leads into something interesting.");
-        Console.WriteLine(" What will you do? Go to the (Entrance) or will you investigate the Door to the (Left)?");
+        
 }
 }
 
