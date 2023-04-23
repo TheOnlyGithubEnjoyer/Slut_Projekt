@@ -4,20 +4,26 @@ public class Stage
 {
     // public Obi obi;
     public static string GetInformationStage () {
-    return " [Main Objective: Find the hidden shuttle back to earth.]";
-    return " (Location): In a hidden capsule with a Door (Right) and a Door (Infront)";
+    return "                                  [Main Objective: Find the hidden shuttle back to earth.] \n \n (Location): In a hidden capsule with a Door (Right) and a Door (Infront).";
     }
     public static string GetInformationStage2 () {
-    return " [Main Objective: Find the hidden shuttle back to earth.]";
-    return " (Location): You're in a tube. You can see a weird creature at the end of it.";
-    return " Will you try to (Attack) it or will you try to (Run) straight through it?";
+    return " (Location): You're in a tube. You can see a weird creature at the end of it. \n Will you try to (Attack) it or will you try to (Run) straight through it?";
     }
     public static string GetInformationstage3 (){
-    return " [Main Objective: Find the hidden shuttle back to earth.]";
-    return " (Location): You are in a big room where you can see an (Entrance) towards the shuttle.";
-    return " You can also see a Door (Left) which leads into something interesting";
-    return " What will you do? Go to the (Entrance) or will you investigate the Door to the (Left)?";
+    return " (Location): You are in a big room where you can see an (Entrance) towards the shuttle. \n You can also see a Door (Left) which leads into something interesting.";
     }
+    public static string GetInformationstage4(){
+    return " (Location): You stumbled into a TRAP! \n There is loads of gunfire and you run into a small passage way where theres a functioning door that can (Close). \n There is also a square device that is ticking pretty loudly in that passage way. \n Use the (Device) as a weapon or (Close) the door?";
+    }
+    public static string GetInformationstage5 (){
+    return " (Location:) You're in a small chamber. \n You then find a compass in a small storage locker. \n You have a small (Hatch) that goes under you, and a (Ladder) at the end of the room that goes up \n Your compass says that the way forward is down under you. \n Will you trust it and go into the (Hatch) or up the (Ladder)";
+    }
+
+
+
+
+
+
     public Stage(){
         // RestClient shipClient = new("https://swapi.py4e.com/api/");
         // RestRequest request = new("starships/10/");

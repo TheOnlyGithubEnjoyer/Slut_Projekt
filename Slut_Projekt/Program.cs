@@ -5,7 +5,7 @@ global using System.Text.Json;
 global using System.Net;
 global using System.Text.Json.Serialization;
 
-Console.WriteLine(" WELCOME TO THE SPACE MAZE!");
+Console.WriteLine(" WELCOME TO THE SPACE MISSION!");
 
 Console.WriteLine(" (Press Enter to Proceed)");
 
@@ -64,30 +64,61 @@ Console.ReadLine();
 
 
 Console.Clear();
-string infromationstage = Stage.GetInformationStage();
-Console.WriteLine(infromationstage);                    // Information about the stage which is written after the character stats are displayed.
+string informationstage = Stage.GetInformationStage();
+Console.WriteLine(informationstage);                    // Information about the stage which is written after the character stats are displayed.
 
 string input2 = "";
 
 while (input2 != "Infront" && input2 != "Right")            // Here you will need to write and input and depending on what you chose there will be a different outcome of storyline.
 {
 
-Console.WriteLine(" Which door will you enter? Door (Right) or Door (Infront)");        // This is the question that pops up every time you don't write an answer.
+Console.WriteLine(" Which door will you enter? Door (Right) or Door (Infront).");        // This is the question that pops up every time you don't write an answer.
 input2 = Console.ReadLine();
 
 
 if (input2 == "Infront")
 {
         Console.Clear();
-        string infromationstage2 = Stage.GetInformationStage2();
-        Console.WriteLine(infromationstage2);
+        string informationstage2 = Stage.GetInformationStage2();
+        Console.WriteLine(informationstage2);
+
+string input3 = "";
         
+while (input3 != "Attack" && input3 != "Run" && input2 == "Infront") {
+    
+    Console.WriteLine(" Will you (Attack) or (Run)?");
+    input3 = Console.ReadLine();
+}
 }
 if (input2 == "Right")
 {
         Console.Clear();
-        
+        string informationstage3 = Stage.GetInformationstage3();
+        Console.WriteLine(informationstage3);
+
+string input4 = "";
+
+while (input4 != "Entrance" && input4 != "Left" && input2 == "Right") {
+    
+    Console.WriteLine(" Will you go through the (Entrance) or go to the (Left)");
+    input4 = Console.ReadLine();
 }
+
+if(input4 == "Entrance")
+{
+    Console.Clear();
+    string informationstage5 = Stage.GetInformationstage5();
+    Console.WriteLine(informationstage5);
+}
+if(input4 == "Left")
+{
+    Console.Clear();
+    string informationstage4 = Stage.GetInformationstage4();
+    Console.WriteLine(informationstage4);
+}
+
+}
+
 }
 
 Console.ReadLine();

@@ -7,7 +7,7 @@ public class Obi
     public static int HP  = 100;
     public static int damage = 100;
     public static string GetInformationObi () {
-    return " Your Chosen Character Is " + name + "! \n Here Are Your Stats: \n Name: " + name + "  \n [HP] = " + Obi.HP + " \n [Weapon] = " + Obi.weapon;
+    return " Here Are Your Stats: \n Name: " + name + "  \n [HP] = " + Obi.HP + " \n [Weapon] = " + Obi.weapon;
     }
 public Obi(){
         
