@@ -62,7 +62,6 @@ if (success == true)    // If you pick 1,2 or 3 (success will be true)
 
 Console.ReadLine();
 
-
 Console.Clear();
 string informationstage = Stage.GetInformationStage();
 Console.WriteLine(informationstage);                    // Information about the stage which is written after the character stats are displayed.
@@ -79,26 +78,40 @@ input2 = Console.ReadLine();
 if (input2 == "Infront")
 {
         Console.Clear();
-        string informationstage2 = Stage.GetInformationStage2();
+        string informationstage2 = Stage.GetInformationStage2();            // Information for stage 2
         Console.WriteLine(informationstage2);
 
 string input3 = "";
         
-while (input3 != "Attack" && input3 != "Run" && input2 == "Infront") {
+while (input3 != "Attack" && input3 != "Run" && input2 == "Infront") {   // Here you will need to write and input and depending on what you chose there will be a different outcome of storyline.
     
     Console.WriteLine(" Will you (Attack) or (Run)?");
     input3 = Console.ReadLine();
 }
+
+if (input3 == "Attack"){
+
+    Console.Clear();
+    string informationstage6 = Stage.GetInformationstage6();                // Information for stage 6
+    Console.WriteLine(informationstage6);
+
+}
+if (input3 == "Run"){
+    Console.Clear();
+    string informationstage7 = Stage.GetInformationstage7();                // Information for stage 5
+    Console.WriteLine(informationstage7);
+}
+
 }
 if (input2 == "Right")
 {
         Console.Clear();
-        string informationstage3 = Stage.GetInformationstage3();
+        string informationstage3 = Stage.GetInformationstage3();            // Information for stage 3
         Console.WriteLine(informationstage3);
 
 string input4 = "";
 
-while (input4 != "Entrance" && input4 != "Left" && input2 == "Right") {
+while (input4 != "Entrance" && input4 != "Left" && input2 == "Right") {   // Here you will need to write and input and depending on what you chose there will be a different outcome of storyline.
     
     Console.WriteLine(" Will you go through the (Entrance) or go to the (Left)");
     input4 = Console.ReadLine();
@@ -107,13 +120,13 @@ while (input4 != "Entrance" && input4 != "Left" && input2 == "Right") {
 if(input4 == "Entrance")
 {
     Console.Clear();
-    string informationstage5 = Stage.GetInformationstage5();
+    string informationstage5 = Stage.GetInformationstage5();                // Information for stage 5
     Console.WriteLine(informationstage5);
 }
 if(input4 == "Left")
 {
     Console.Clear();
-    string informationstage4 = Stage.GetInformationstage4();
+    string informationstage4 = Stage.GetInformationstage4();                // Information for stage 4
     Console.WriteLine(informationstage4);
 }
 

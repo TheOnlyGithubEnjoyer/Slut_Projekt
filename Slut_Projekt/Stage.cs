@@ -18,6 +18,13 @@ public class Stage
     public static string GetInformationstage5 (){
     return " (Location:) You're in a small chamber. \n You then find a compass in a small storage locker. \n You have a small (Hatch) that goes under you, and a (Ladder) at the end of the room that goes up \n Your compass says that the way forward is down under you. \n Will you trust it and go into the (Hatch) or up the (Ladder)";
     }
+    public static string GetInformationstage6 (){
+        return "";
+    }
+    public static string GetInformationstage7 (){
+        return "";
+    }
+
 
 
 
