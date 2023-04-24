@@ -90,10 +90,26 @@ while (input3 != "Attack" && input3 != "Run" && input2 == "Infront") {   // Here
 }
 
 if (input3 == "Attack"){
+    if(character == 1)
+    {
 
     Console.Clear();
-    string informationstage6 = Stage.GetInformationstage6();                // Information for stage 6
-    Console.WriteLine(informationstage6);
+    string informationstage6Vader = Stage.GetInformationstage6Vader();                // Information for stage 6
+    Console.WriteLine(informationstage6Vader);
+
+    }
+if (character == 2)
+{
+    Console.Clear();
+    string GetInformationstage6Skywalker = Stage.GetInformationstage6Skywalker();                // Information for stage 6
+    Console.WriteLine(GetInformationstage6Skywalker);
+}
+if (character == 3)
+{
+    Console.Clear();
+    string informationstage6Obi = Stage.GetInformationstage6Obi();                // Information for stage 6
+    Console.WriteLine(informationstage6Obi);
+}
 
 }
 if (input3 == "Run"){
