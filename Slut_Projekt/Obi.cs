@@ -1,13 +1,12 @@
 
-public class Obi
+public class Obi : Character
 {
     // public Obi obi;
     public static string? name { get; set; } = "Obi-Wan Kenobi";
-    public static string weapon  = "Blue Lightsaber";
-    public static int HP  = 100;
+    public static string weapon  = "Blue Lightsaber";               // Information about this character
     public static int damage = 100;
     public static string GetInformationObi () {
-    return " Here Are Your Stats: \n Name: " + name + "  \n [HP] = " + Obi.HP + " \n [Weapon] = " + Obi.weapon;
+    return " Here Are Your Stats: \n [Name]: " + name + "  \n [HP] = " + Obi.HP + " \n [Weapon] = " + Obi.weapon + "\n [Damage] = " + Obi.damage;
     }
 public Obi(){
         

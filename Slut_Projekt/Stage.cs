@@ -4,7 +4,7 @@ public class Stage
 {
     // public Obi obi;
     public static string GetInformationStage () {
-    return "                                  [Main Objective: Find the hidden shuttle back to earth.] \n \n (Location): In a hidden capsule with a Door (Right) and a Door (Infront).";
+    return " [Main Objective: Find the hidden shuttle back to earth.] \n \n (Location): In a hidden capsule with a Door (Right) and a Door (Infront).";
     }
     public static string GetInformationStage2 () {
     return " (Location): You're in a tube. You can see a weird creature at the end of it. \n The creature has a HP of 180! \n Will you try to (Attack) it or will you try to (Run) straight through it?";
@@ -18,7 +18,6 @@ public class Stage
     public static string GetInformationstage5 (){
     return " (Location:) You're in a small chamber. \n You then find a compass in a small storage locker. \n You have a small (Hatch) that goes under you, and a (Ladder) at the end of the room that goes up \n Your compass says that the way forward is down under you. \n Will you trust it and go into the (Hatch) or up the (Ladder)";
     }
-    
         public static string GetInformationstage6Vader (){
         return " You attack the creature with your lightsaber and do (" + Vader.damage + ") Damage . The creature dies and you find a (Hole) in the wall! ";
     }
@@ -29,7 +28,7 @@ public class Stage
         return " You attack the creature with your lightsaber and do (" + Obi.damage + ") Damage. \n You get thrown into the wall and you break your neck. \n It's Over! You failed :/ ";
     }
     public static string GetInformationstage7 (){
-        return "";
+        return " ";
     }
 
 
